@@ -15,7 +15,7 @@ SetDebugNewGameParty: ; unreferenced except in _DEBUG
 DebugNewGameParty: ; unreferenced except in _DEBUG
 	db SNORLAX, 80
 	db PERSIAN, 80
-	db JIGGLYPUFF, 15
+	db BEEDRILL, 25
 	db STARTER_PIKACHU, 5
 	db -1 ; end
 
@@ -48,7 +48,7 @@ IF DEF(_DEBUG)
 	ld [hli], a
 	ld a, SURF
 	ld [hli], a
-	ld a, STRENGTH
+	ld a, RAGE
 	ld [hl], a
 
 	; Get some debug items.
