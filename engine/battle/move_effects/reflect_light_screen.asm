@@ -16,7 +16,7 @@ ReflectLightScreenEffect_:
 	ld hl, LightScreenProtectedText
 	jr .playAnim
 .reflect
-	bit HAS_REFLECT_UP, [hl] ; is mon already protected by reflect?
+	bit HAS_LIGHT_SCREEN_UP, [hl] ; is mon already protected by reflect?
 	jr nz, .moveFailed
 	set HAS_REFLECT_UP, [hl] ; mon is now protected by reflect
 	ld hl, ReflectGainedArmorText

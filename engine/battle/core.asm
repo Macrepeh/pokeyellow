@@ -388,12 +388,19 @@ MainInBattleLoop:
 	cp QUICK_ATTACK
 	jr z, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
 	ld a, [wPlayerSelectedMove]
-	cp COUNTER
+	cp WRAP
 	jr nz, .playerDidNotUseCounter
 	ld a, [wEnemySelectedMove]
-	cp COUNTER
+	cp WRAP
 	jr z, .compareSpeed ; if both used Counter
 	jr .enemyMovesFirst ; if player used Counter and enemy didn't
+	ld a, [wPlayerSelectedMove]
+	cp FIRE_SPIN
+	jr nz, .playerDidNotUseCounter
+	ld a, [wEnemySelectedMove]
+	cp FIRE_SPIN
+	jr z, .compareSpeed ; if both used wrap
+	jr .enemyMovesFirst ; if player used wrap and enemy didn't
 .playerDidNotUseCounter
 	ld a, [wEnemySelectedMove]
 	cp COUNTER

@@ -228,14 +228,14 @@ FreezeBurnParalyzeEffect:
 	ld a, FREEZE_SIDE_EFFECT
 	ld b, 30 percent + 1
 	jr z, .regular_effectiveness
-	ld b, 10 percent + 1
+	ld b, 30 percent + 1
 	jr .regular_effectiveness
 .asm_3f2c7
 	cp PARALYZE_SIDE_EFFECT1 + 1
 	ld b, 10 percent + 1
 	jr c, .regular_effectiveness
 ; extra effectiveness
-	ld b, 30 percent + 1
+	ld b, 40 percent + 1
 	sub BURN_SIDE_EFFECT2 - BURN_SIDE_EFFECT1 ; treat extra effective as regular from now on
 .regular_effectiveness
 	push af
@@ -814,7 +814,7 @@ BideEffect:
 	ld [wPlayerMoveEffect], a
 	ld [wEnemyMoveEffect], a
 	call BattleRandom
-	and $1
+	and $4
 	inc a
 	inc a
 	ld [bc], a ; set Bide counter to 2 or 3 at random
@@ -833,7 +833,7 @@ ThrashPetalDanceEffect:
 .thrashPetalDanceEffect
 	set THRASHING_ABOUT, [hl] ; mon is now using thrash/petal dance
 	call BattleRandom
-	and $1
+	and $2
 	inc a
 	inc a
 	ld [de], a ; set thrash/petal dance counter to 2 or 3 at random
@@ -1167,7 +1167,7 @@ RecoilEffect:
 
 ConfusionSideEffect:
 	call BattleRandom
-	cp 10 percent ; chance of confusion
+	cp 14 percent ; chance of confusion
 	ret nc
 	jr ConfusionSideEffectSuccess
 
@@ -1195,7 +1195,7 @@ ConfusionSideEffectSuccess:
 	set CONFUSED, [hl] ; mon is now confused
 	push af
 	call BattleRandom
-	and $3
+	and $6
 	inc a
 	inc a
 	ld [bc], a ; confusion status will last 2-5 turns
@@ -1252,6 +1252,12 @@ RageEffect:
 	ld hl, wEnemyBattleStatus2
 .player
 	set USING_RAGE, [hl] ; mon is now in "rage" mode
+	call BattleRandom
+	and a
+	jr z, .player
+	cp b
+	jr nc, .player
+	ld b, a
 	ret
 
 MimicEffect:
@@ -1397,7 +1403,7 @@ DisableEffect:
 .playerTurnNotLinkBattle
 ; non-link battle enemies have unlimited PP so the previous checks aren't needed
 	call BattleRandom
-	and $7
+	and $2
 	inc a ; 1-8 turns disabled
 	inc c ; move 1-4 will be disabled
 	swap c

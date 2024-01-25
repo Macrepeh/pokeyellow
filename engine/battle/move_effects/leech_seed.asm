@@ -17,7 +17,7 @@ LeechSeedEffect_:
 	jr z, .moveMissed
 	inc de
 	ld a, [de]
-	cp GRASS
+	cp POISON
 	jr z, .moveMissed
 	bit SEEDED, [hl]
 	jr nz, .moveMissed

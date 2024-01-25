@@ -12,11 +12,13 @@ RecoilEffect_:
 	ld b, a
 	ld a, [wDamage + 1]
 	ld c, a
-	srl b
 	rr c
 	ld a, d
+	cp SUBMISSION
+	jr z, .gotRecoilDamage
 	cp STRUGGLE ; struggle deals 50% recoil damage
 	jr z, .gotRecoilDamage
+	srl b
 	srl b
 	rr c
 .gotRecoilDamage

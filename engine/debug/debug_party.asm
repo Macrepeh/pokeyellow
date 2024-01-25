@@ -48,7 +48,7 @@ IF DEF(_DEBUG)
 	ld [hli], a
 	ld a, SURF
 	ld [hli], a
-	ld a, RAGE
+	ld a, WRAP
 	ld [hl], a
 
 	; Get some debug items.
