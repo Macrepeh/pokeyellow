@@ -812,10 +812,10 @@ MagmarEvosMoves:
 ; Learnset
 	db 36, LEER
 	db 39, CONFUSE_RAY
-	db 43, FIRE_PUNCH
+	db 43, FLAMETHROWER
 	db 48, SMOKESCREEN
 	db 52, SMOG
-	db 55, FLAMETHROWER
+	db 55, FIRE_SPIN
 	db 0
 
 MissingNo34EvosMoves:
@@ -830,7 +830,7 @@ ElectabuzzEvosMoves:
 ; Learnset
 	db 34, THUNDERSHOCK
 	db 37, SCREECH
-	db 42, THUNDERPUNCH
+	db 42, THUNDERBOLT
 	db 49, LIGHT_SCREEN
 	db 54, THUNDER
 	db 0
@@ -1019,7 +1019,7 @@ JynxEvosMoves:
 ; Learnset
 	db 18, LICK
 	db 23, DOUBLESLAP
-	db 31, ICE_PUNCH
+	db 31, ICE_BEAM
 	db 39, BODY_SLAM
 	db 47, THRASH
 	db 58, BLIZZARD
