@@ -2,13 +2,12 @@ TypeEffects:
 	;  attacker,     defender,     *=
 	db WATER,        FIRE,         SUPER_EFFECTIVE
 	db FIRE,         GRASS,        SUPER_EFFECTIVE
-	db FIRE,         ICE,          SUPER_EFFECTIVE
 	db GRASS,        WATER,        SUPER_EFFECTIVE
 	db ELECTRIC,     WATER,        SUPER_EFFECTIVE
 	db WATER,        ROCK,         SUPER_EFFECTIVE
 	db GROUND,       FLYING,       NO_EFFECT
 	db WATER,        WATER,        NOT_VERY_EFFECTIVE
-	db FIRE,         FIRE,         NOT_VERY_EFFECTIVE
+	db FIRE,         FIRE,         SUPER_EFFECTIVE
 	db ELECTRIC,     ELECTRIC,     NOT_VERY_EFFECTIVE
 	db ICE,          ICE,          NOT_VERY_EFFECTIVE
 	db GRASS,        GRASS,        NOT_VERY_EFFECTIVE
@@ -47,7 +46,7 @@ TypeEffects:
 	db POISON,       GROUND,       NOT_VERY_EFFECTIVE
 	db POISON,       BUG,          SUPER_EFFECTIVE
 	db POISON,       ROCK,         NOT_VERY_EFFECTIVE
-	db POISON,       GHOST,        NOT_VERY_EFFECTIVE
+	db POISON,       GHOST,        NO_EFFECT
 	db GROUND,       FIRE,         SUPER_EFFECTIVE
 	db GROUND,       ELECTRIC,     SUPER_EFFECTIVE
 	db GROUND,       GRASS,        NOT_VERY_EFFECTIVE
@@ -66,7 +65,7 @@ TypeEffects:
 	db BUG,          FIGHTING,     NOT_VERY_EFFECTIVE
 	db BUG,          FLYING,       NOT_VERY_EFFECTIVE
 	db BUG,          PSYCHIC_TYPE, SUPER_EFFECTIVE
-	db BUG,          GHOST,        NOT_VERY_EFFECTIVE
+	db BUG,          GHOST,        NO_EFFECT
 	db BUG,          POISON,       SUPER_EFFECTIVE
 	db ROCK,         FIRE,         SUPER_EFFECTIVE
 	db ROCK,         FIGHTING,     NOT_VERY_EFFECTIVE
@@ -82,4 +81,20 @@ TypeEffects:
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+	db GHOST,	 DRAGON,       NO_EFFECT
+	db GHOST,	 ICE,	       NO_EFFECT
+	db GHOST,	 WATER,	       NO_EFFECT
+	db GHOST,	 BUG,	       NO_EFFECT
+	db GHOST,	 FIGHTING,     NO_EFFECT
+	db GHOST,	 ROCK,	       NO_EFFECT
+	db GHOST,	 GRASS,        NO_EFFECT
+	db GHOST,	 ELECTRIC,     NO_EFFECT
+	db GHOST,	 FLYING,       NO_EFFECT
+	db GHOST,	 POISON,       NO_EFFECT
+	db GHOST,	 FIRE,	       NO_EFFECT
+	db GHOST,	 GROUND,       NO_EFFECT
+	db GROUND,	 GHOST,	       NO_EFFECT
+	db ROCK,	 GHOST,	       NO_EFFECT
+	db FLYING,	 GHOST,        NO_EFFECT
+	db PSYCHIC_TYPE, FIRE,	       SUPER_EFFECTIVE
 	db -1 ; end
