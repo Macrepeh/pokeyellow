@@ -1,11 +1,11 @@
 	db DEX_CLEFABLE ; pokedex id
 
-	db  95,  70,  73,  60,  85
+	db  95,  71,  80,  69,  85
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
-	db 25 ; catch rate
-	db 129 ; base exp
+	db NORMAL, POISON ; type
+	db 20 ; catch rate
+	db 100 ; base exp
 
 	INCBIN "gfx/pokemon/front/clefable.pic", 0, 1 ; sprite dimensions
 	dw ClefablePicFront, ClefablePicBack
