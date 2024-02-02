@@ -1,9 +1,9 @@
 	db DEX_MR_MIME ; pokedex id
 
-	db  40,  45,  65,  90, 100
+	db  20,  55,  55,  105, 105
 	;   hp  atk  def  spd  spc
 
-	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
+	db PSYCHIC_TYPE, POISON ; type
 	db 45 ; catch rate
 	db 136 ; base exp
 
@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
+	     RAGE,         SOLARBEAM,    DRAGON_RAGE,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     METRONOME,    SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
 	     SUBSTITUTE,   FLASH
