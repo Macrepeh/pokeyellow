@@ -1,6 +1,6 @@
 	db DEX_MEWTWO ; pokedex id
 
-	db 110, 110,  100, 130, 160
+	db 130, 110,  120, 150, 170
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
