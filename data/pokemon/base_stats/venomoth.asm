@@ -1,6 +1,6 @@
 	db DEX_VENOMOTH ; pokedex id
 
-	db  70,  65,  60,  90,  90
+	db  80,  45,  80,  100, 100
 	;   hp  atk  def  spd  spc
 
 	db BUG, POISON ; type
