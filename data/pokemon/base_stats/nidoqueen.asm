@@ -1,11 +1,11 @@
 	db DEX_NIDOQUEEN ; pokedex id
 
-	db  90,  82,  87,  76,  75
+	db  85,  77,  82,  71,  70
 	;   hp  atk  def  spd  spc
 
 	db POISON, GROUND ; type
 	db 45 ; catch rate
-	db 194 ; base exp
+	db 130 ; base exp
 
 	INCBIN "gfx/pokemon/front/nidoqueen.pic", 0, 1 ; sprite dimensions
 	dw NidoqueenPicFront, NidoqueenPicBack
