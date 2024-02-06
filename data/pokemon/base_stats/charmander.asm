@@ -1,6 +1,6 @@
 	db DEX_CHARMANDER ; pokedex id
 
-	db  29,  42,  33,  55,  40
+	db  29,  40,  30,  55,  40
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -11,7 +11,7 @@
 	dw CharmanderPicFront, CharmanderPicBack
 
 	db SCRATCH, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db 26 ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
