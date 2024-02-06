@@ -1,6 +1,6 @@
 	db DEX_CHARMELEON ; pokedex id
 
-	db  58,  64,  58,  80,  65
+	db  53,  60,  53,  75,  60
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -11,7 +11,7 @@
 	dw CharmeleonPicFront, CharmeleonPicBack
 
 	db SCRATCH, GROWL, EMBER, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db 26 ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
