@@ -20,6 +20,7 @@ TypeEffects:
 	db NORMAL,       GHOST,        NO_EFFECT
 	db GHOST,        GHOST,        SUPER_EFFECTIVE
 	db FIRE,         BUG,          SUPER_EFFECTIVE
+	db FLYING,	 FIRE,	       SUPER_EFFECTIVE
 	db FIRE,         ROCK,         NOT_VERY_EFFECTIVE
 	db WATER,        GROUND,       SUPER_EFFECTIVE
 	db ELECTRIC,     GROUND,       NO_EFFECT
@@ -39,6 +40,7 @@ TypeEffects:
 	db FIGHTING,     PSYCHIC_TYPE, NOT_VERY_EFFECTIVE
 	db FIGHTING,     BUG,          NOT_VERY_EFFECTIVE
 	db FIGHTING,     ROCK,         SUPER_EFFECTIVE
+	db FIGHTING,	 FIRE,	       SUPER_EFFECTIVE
 	db FIGHTING,     ICE,          SUPER_EFFECTIVE
 	db FIGHTING,     GHOST,        NO_EFFECT
 	db POISON,       GRASS,        SUPER_EFFECTIVE
