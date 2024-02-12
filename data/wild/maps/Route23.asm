@@ -3,10 +3,10 @@ Route23WildMons:
 	db 41, NIDORINO
 	db 41, NIDORINA
 	db 36, MANKEY
-	db 44, NIDORINO
+	db 44, NIDOKING
 	db 44, NIDORINA
 	db 40, FEAROW
-	db 41, MANKEY
+	db 41, DODUO
 	db 45, FEAROW
 	db 41, PRIMEAPE
 	db 46, PRIMEAPE
