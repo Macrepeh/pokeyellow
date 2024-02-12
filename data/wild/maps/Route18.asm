@@ -1,15 +1,15 @@
 Route18WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 22, SPEAROW
-	db 22, DODUO
-	db 23, RATTATA
-	db 24, DODUO
-	db 24, RATTATA
-	db 26, DODUO
 	db 23, SPEAROW
-	db 24, FEAROW
-	db 25, RATICATE
+	db 23, DODUO
+	db 24, RATICATE
+	db 25, DODUO
+	db 25, RATTATA
+	db 27, BUTTERFREE
+	db 24, SPEAROW
+	db 25, FEAROW
 	db 26, RATICATE
+	db 27, RATICATE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
