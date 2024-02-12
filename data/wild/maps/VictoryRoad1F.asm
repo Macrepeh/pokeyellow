@@ -1,15 +1,15 @@
 VictoryRoad1FWildMons:
-	def_grass_wildmons 15 ; encounter rate
-	db 26, GEODUDE
-	db 31, GEODUDE
+	def_grass_wildmons 25 ; encounter rate
+	db 31, RATICATE
 	db 36, GEODUDE
-	db 39, ZUBAT
+	db 41, SANDSLASH
 	db 44, ZUBAT
-	db 41, GEODUDE
-	db 43, ONIX
-	db 45, ONIX
-	db 41, GRAVELER
-	db 47, GRAVELER
+	db 49, GOLBAT
+	db 46, KOFFING
+	db 48, ONIX
+	db 50, CUBONE
+	db 46, MAGMAR
+	db 52, GRAVELER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
