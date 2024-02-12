@@ -1,15 +1,16 @@
 CeruleanCave2FWildMons:
-	def_grass_wildmons 15 ; encounter rate
-	db 52, GOLBAT
+	def_grass_wildmons 25 ; encounter rate
 	db 57, GOLBAT
-	db 50, GRAVELER
-	db 56, SANDSLASH
-	db 50, RHYHORN
-	db 60, DITTO
-	db 58, GLOOM
-	db 58, WEEPINBELL
-	db 60, RHYDON
-	db 58, RHYDON
+	db 62, ARCANINE
+	db 55, GRAVELER
+	db 61, SANDSLASH
+	db 55, RHYHORN
+	db 65, DITTO
+	db 63, VENUSAUR
+	db 70, ALAKAZAM
+	db 63, WEEPINBELL
+	db 65, RHYDON
+	db 63, RHYDON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
