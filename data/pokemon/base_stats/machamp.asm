@@ -1,10 +1,10 @@
 	db DEX_MACHAMP ; pokedex id
 
-	db  10, 150,  80,  115,  55
+	db  10, 150,  80,  115,  45
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type
-	db 45 ; catch rate
+	db 3 ; catch rate
 	db 193 ; base exp
 
 	INCBIN "gfx/pokemon/front/machamp.pic", 0, 1 ; sprite dimensions
