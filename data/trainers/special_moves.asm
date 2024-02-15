@@ -46,6 +46,8 @@ SpecialTrainerMoves:
 	db 4, 2, DOUBLE_TEAM
 	db 4, 3, PSYCHIC_M
 	db 4, 4, TOXIC
+	db 5, 1, TOXIC
+	db 6, 1, TOXIC
 	db 0
 
 	db BLAINE, 1
@@ -106,9 +108,9 @@ SpecialTrainerMoves:
 	db 1, 3, THUNDERBOLT
 	db 1, 4, MEGA_DRAIN
 	db 2, 2, TOXIC
-	db 2, 4, LEECH_LIFE
+	db 2, 4, EXPLOSION
 	db 3, 2, LICK
-	db 4, 1, WRAP
+	db 4, 1, THUNDERBOLT
 	db 5, 2, PSYCHIC_M
 	db 0
 
