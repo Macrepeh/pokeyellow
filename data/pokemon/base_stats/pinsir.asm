@@ -1,6 +1,6 @@
 	db DEX_PINSIR ; pokedex id
 
-	db  65, 125, 100,  85,  55
+	db  70, 125, 80,  100,  65
 	;   hp  atk  def  spd  spc
 
 	db BUG, BUG ; type
@@ -14,7 +14,7 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  		   \
 	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         MIMIC,        \
 	     DOUBLE_TEAM,  BIDE,         REST,         SUBSTITUTE,   CUT,          \
 	     STRENGTH
