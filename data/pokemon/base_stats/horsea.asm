@@ -1,6 +1,6 @@
 	db DEX_HORSEA ; pokedex id
 
-	db  30,  40,  70,  60,  70
+	db  33,  20,  45,  87,  55
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
