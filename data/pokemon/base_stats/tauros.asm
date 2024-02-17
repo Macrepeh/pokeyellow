@@ -1,6 +1,6 @@
 	db DEX_TAUROS ; pokedex id
 
-	db  75, 100,  95, 110,  70
+	db  65, 90,  85, 100,  60
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
