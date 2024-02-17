@@ -1,11 +1,11 @@
 	db DEX_KANGASKHAN ; pokedex id
 
-	db 105,  95,  80,  90,  40
+	db 103,  97,  58,  115,  57
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
-	db 175 ; base exp
+	db 130 ; base exp
 
 	INCBIN "gfx/pokemon/front/kangaskhan.pic", 0, 1 ; sprite dimensions
 	dw KangaskhanPicFront, KangaskhanPicBack
