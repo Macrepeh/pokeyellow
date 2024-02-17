@@ -1,11 +1,11 @@
 	db DEX_CATERPIE ; pokedex id
 
-	db  45,  30,  35,  45,  20
+	db  50,  25,  40,  40,  25
 	;   hp  atk  def  spd  spc
 
 	db BUG, BUG ; type
 	db 255 ; catch rate
-	db 53 ; base exp
+	db 43 ; base exp
 
 	INCBIN "gfx/pokemon/front/caterpie.pic", 0, 1 ; sprite dimensions
 	dw CaterpiePicFront, CaterpiePicBack
