@@ -2,8 +2,7 @@ PokemonMansionB1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 35, GRIMER
 	db 38, DITTO
-	db 37, RATICATE
-	db 40, RATICATE
+	db 40, DITTO
 	db 41, MUK
 	db 43, RATICATE
 	db 24, DITTO
