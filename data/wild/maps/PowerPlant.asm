@@ -1,5 +1,5 @@
 PowerPlantWildMons:
-	def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 15 ; encounter rate
 	db 30, MAGNEMITE
 	db 35, MAGNEMITE
 	db 33, MAGNETON
@@ -9,7 +9,7 @@ PowerPlantWildMons:
 	db 37, GRIMER
 	db 38, MAGNETON
 	db 33, MUK
-	db 37, MUK
+	db 37, ELECTRODE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
