@@ -1,6 +1,5 @@
 PokemonMansion1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 34, RATTATA
 	db 34, RATICATE
 	db 23, GRIMER
 	db 10, RATTATA
@@ -10,7 +9,6 @@ PokemonMansion1FWildMons:
 	db 30, GROWLITHE
 	db 26, GRIMER
 	db 27, ABRA
-	db 34, GROWLITHE
 	db 38, GROWLITHE
 	end_grass_wildmons
 
