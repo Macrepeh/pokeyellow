@@ -1,11 +1,11 @@
 	db DEX_PORYGON ; pokedex id
 
-	db  65,  60,  70,  40,  75
+	db  80,  75,  85,  55,  105
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
-	db 130 ; base exp
+	db 120 ; base exp
 
 	INCBIN "gfx/pokemon/front/porygon.pic", 0, 1 ; sprite dimensions
 	dw PorygonPicFront, PorygonPicBack
