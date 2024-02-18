@@ -1,11 +1,11 @@
 	db DEX_PARASECT ; pokedex id
 
-	db  60,  95,  80,  30,  80
+	db  45,  105,  80,  40,  70
 	;   hp  atk  def  spd  spc
 
 	db BUG, GRASS ; type
-	db 75 ; catch rate
-	db 128 ; base exp
+	db 60 ; catch rate
+	db 110 ; base exp
 
 	INCBIN "gfx/pokemon/front/parasect.pic", 0, 1 ; sprite dimensions
 	dw ParasectPicFront, ParasectPicBack
