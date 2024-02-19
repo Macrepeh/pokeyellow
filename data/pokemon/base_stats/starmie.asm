@@ -1,11 +1,11 @@
 	db DEX_STARMIE ; pokedex id
 
-	db  60,  75,  85, 115, 100
+	db  70,  75,  80, 118, 102
 	;   hp  atk  def  spd  spc
 
 	db WATER, PSYCHIC_TYPE ; type
 	db 60 ; catch rate
-	db 207 ; base exp
+	db 190 ; base exp
 
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1 ; sprite dimensions
 	dw StarmiePicFront, StarmiePicBack
