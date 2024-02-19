@@ -147,6 +147,8 @@ SpecialTrainerMoves:
 	db 1, 1, ROCK_SLIDE
 	db 1, 2, SURF
 	db 1, 4, EARTHQUAKE
+	db 2, 1, COMET_PUNCH
+	db 2, 2, ICE_PUNCH
 	db 2, 3, FIRE_PUNCH
 	db 2, 4, DOUBLE_TEAM
 	db 3, 1, DOUBLE_KICK
