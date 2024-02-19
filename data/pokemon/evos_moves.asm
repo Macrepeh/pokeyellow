@@ -294,7 +294,7 @@ SlowbroEvosMoves:
 	db 33, WATER_GUN
 	db 37, WITHDRAW
 	db 44, AMNESIA
-	db 55, PSYCHIC_M
+	db 55, PSYBEAM
 	db 0
 
 IvysaurEvosMoves:
@@ -438,7 +438,7 @@ MewEvosMoves:
 	db 10, TRANSFORM
 	db 20, MEGA_PUNCH
 	db 30, METRONOME
-	db 40, PSYCHIC_M
+	db 40, PSYBEAM
 	db 0
 
 GyaradosEvosMoves:
@@ -623,7 +623,7 @@ SlowpokeEvosMoves:
 	db 27, GROWL
 	db 33, WATER_GUN
 	db 40, AMNESIA
-	db 48, PSYCHIC_M
+	db 48, PSYBEAM
 	db 0
 
 KadabraEvosMoves:
@@ -635,7 +635,7 @@ KadabraEvosMoves:
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
-	db 38, PSYCHIC_M
+	db 38, PSYBEAM
 	db 42, REFLECT
 	db 0
 
@@ -784,7 +784,7 @@ DrowzeeEvosMoves:
 	db 17, CONFUSION
 	db 24, HEADBUTT
 	db 29, POISON_GAS
-	db 32, PSYCHIC_M
+	db 32, PSYBEAM
 	db 37, MEDITATE
 	db 0
 
@@ -956,6 +956,7 @@ VenonatEvosMoves:
 	db 35, PSYBEAM
 	db 38, SLEEP_POWDER
 	db 43, PSYCHIC_M
+	db 45, PSYBEAM
 	db 0
 
 DragoniteEvosMoves:
@@ -1592,7 +1593,7 @@ HypnoEvosMoves:
 	db 17, CONFUSION
 	db 24, HEADBUTT
 	db 33, POISON_GAS
-	db 37, PSYCHIC_M
+	db 37, PSYBEAM
 	db 43, MEDITATE
 	db 0
 
@@ -1612,9 +1613,9 @@ MewtwoEvosMoves:
 	db 0
 ; Learnset
 	db 63, BARRIER
-	db 66, PSYCHIC_M
-	db 70, RECOVER
-	db 75, HI_JUMP_KICK
+	db 66, PSYBEAM
+	db 69, RECOVER
+	db 70, HI_JUMP_KICK
 	db 81, AMNESIA
 	db 0
 
