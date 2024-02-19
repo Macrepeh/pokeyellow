@@ -1,11 +1,11 @@
 	db DEX_TENTACOOL ; pokedex id
 
-	db  40,  40,  35,  70, 100
+	db  17,  63,  38,  78, 89
 	;   hp  atk  def  spd  spc
 
 	db WATER, POISON ; type
 	db 190 ; catch rate
-	db 105 ; base exp
+	db 100 ; base exp
 
 	INCBIN "gfx/pokemon/front/tentacool.pic", 0, 1 ; sprite dimensions
 	dw TentacoolPicFront, TentacoolPicBack
